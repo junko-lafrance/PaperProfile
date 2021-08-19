@@ -1,0 +1,102 @@
+/*
+*[header]
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    min-width: 1076;
+}
+
+/*
+*[main]
+*/
+.block-main {
+    text-align: center;
+}
+
+.item-list {
+    width: 100%;
+    max-width: 348px;
+    margin: 0 auto;
+}
+
+.item-list b {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.item-list p {
+    font-size: 15px;
+}
+
+.kyokasho {
+    font-family: "Noto serif JP", serif;
+}
+
+.work_coment {
+    font-size: 10px;
+}
+
+.image-size {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.ditch {
+    height: 1px;
+    background-color: #efe7e7;
+    border-top: 1px solid #eff;
+    border-bottom: 1px solid #eff;
+}
+
+.color-yellow {
+    color: rgb(160, 184, 28);
+}
+
+.box-aisatsu {
+    font-family: "Noto Serif JP", serif;
+    font-size: 10px;
+}
+
+.box-top_link {
+    font-family: "Noto Serif JP", serif;
+    font-size: 30px;
+    margin: 20px 0px 20px 890px;
+}
+
+/*
+*[icon]
+*/
+.icon-list {
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 10px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.icon-list li {
+    margin-right: 22px;
+}
+
+.icon-list li:last-child {
+    margin-right: 0;
+}
+
+.icon-size {
+    width: 20px;
+    height: 20px;
+}
+
+/*[footer]*/
+.block-footer p {
+    text-align: center;
+    font-size: 5px;
+}
